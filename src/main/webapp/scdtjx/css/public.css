@@ -1,0 +1,38 @@
+a:hover{text-decoration: none;}
+/*头部*/
+.container,.container-fluid{padding: 0; }
+.navbar{border-radius: 0; }
+.title{height: 110px; }
+.logo{display: flex; align-items: center; justify-content: center; height: 100%; float: left; }
+.logo>img{height: 80px; }
+.tel{height: 100%; float: right; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.tel .rx{font-size: 18px; margin-bottom: 0; text-align: right }
+.tel .hm{font-size: 26px; margin-bottom: 0; }
+.glyphicon-earphone{color: #db2026; font-size: 24px; margin-right: 10px; }
+
+/*导航*/
+.navbar{border: none; }
+.container>.navbar-header{margin-right: 0;margin-left: 15px}
+.navbar .navbar-brand{padding: 0 30px; line-height: 50px; color: #fff; background-color: #db2026; }
+.navbar .navbar-brand:hover{background-color: #db2026; }
+#nav>li>a{padding: 0 30px; line-height: 50px; font-size: 16px; color: #ddd; -webkit-transition: color background .3s; -o-transition: color background .3s; transition: color background .3s; }
+#nav>li>a:hover{color: #fff; background: #db2026; }
+
+/*footer*/
+.footer{width: 100%; padding: 50px 0 30px 0; margin-top: 70px; background-color: #222; }
+.link-box{display: block; padding-bottom: 10px; margin-bottom: 20px; border-bottom: 1px solid #666; }
+.friend{display: flex; justify-content: flex-start; align-items: center; margin-bottom: 10px; }
+.white{width: 5px; height: 14px; margin-right: 10px; background-color: #fff; }
+.f-con{color: #fff; font-weight: bold; margin-right: 6px; }
+.f-yx{color: #999; font-size: 12px; }
+.friend-link{display: block; list-style: none; font-size: 12px; }
+.friend-link>li{float: left; margin-right: 10px; color: #999; margin-bottom: 5px; }
+.friend-link>li>a{color: #999; }
+.friend-link>li>a:hover{color: #ddd; }
+.beian{display: flex; justify-content: center; align-items: center; flex-wrap: wrap; }
+.beian>div{color: #999; margin: 0 20px 10px 10px; font-size: 12px; }
+.beian>div>span{margin-right: 4px; }
+.ewm{width: 70px; margin: 0 auto; margin-top: -10px; }
+.ewm>.thumbnail{margin-bottom: 0; }
+.iphone{text-align: center; color: #ddd; margin-bottom: 0; font-size: 14px; margin-top: 5px; }
+.glyphicon-phone{margin-right: 3px; }

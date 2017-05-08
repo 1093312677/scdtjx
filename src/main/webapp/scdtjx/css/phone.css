@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+	.title{display: flex; justify-content: center; height: 60px; } 
+	.navbar{margin-bottom: 0;}
+	.container>.navbar-header{margin-left: -15px}
+	.navbar-inverse .navbar-brand{background-color: #222;}
+	.logo>img{height: 50px;}
+	.col-md-9.product-list{padding: 0;}
+	.footer{padding: 30px 0 20px 0;}
+
+	.tel,.ewm-box,.link-box,.carousel-control,.product-menu,.address-item>p{display: none; }
+
+	.contactUs>.thumbnail{padding-left: 15px; } .address-message{margin: 20px 0 10px 0; } 
+	.zb-message{max-width: 50%;}
+	.caption{padding-left: 10px;}
+	.gccj{display: none}
+	.news-list>.col-md-3{padding-left: 15px;}
+	.under-more{top: -42px;}
+	.wel-img{padding-left: 15px;margin-bottom: 15px;}
+	.news-list-img{display: none;}
+	.footer{margin-top: 20px;}
+	.pro-address{padding-left: 20px;}
+	#con{padding-left: 10px;}
+	.caption2{padding: 0 15px;}
+	textarea.form-control{height: 75px;}
+}
+@media (max-width: 360px) {
+	.zb-message{max-width: 45%;}
+}
